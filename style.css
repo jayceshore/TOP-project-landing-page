@@ -1,0 +1,34 @@
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero {
+font-size: 48px;
+font-weight: bolder;
+text-decoration-color: #f9faf8;
+}
+
+.header {
+display: flex;
+align-items: center;
+justify-content: right;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.photospace {
+    display: flex;
+}
+
+.action{
+    
+}
+
+button.bottom {
+    background-color: #3882F6;
+    color: white;
+}
