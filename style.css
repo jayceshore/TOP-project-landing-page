@@ -13,6 +13,14 @@ text-decoration-color: #f9faf8;
 display: flex;
 align-items: center;
 justify-content: right;
+color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-items: left;
 }
 
 ul {
@@ -22,13 +30,29 @@ ul {
 
 .photospace {
     display: flex;
+
 }
 
-.action{
-    
+.quotebox {
+    background: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: italic;
+}
+
+.action,
+button.bottom {
+    background-color: #3882F6;
 }
 
 button.bottom {
-    background-color: #3882F6;
     color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
