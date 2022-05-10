@@ -55,10 +55,19 @@ a {
     color: #e5e7eb;
 }
 
+.wordsbox {
+    display: flex;
+}
+
+.words {
+    flex-direction: column;
+}
+
 .photospace {
-color: grey;
-
-
+    align-items: right;
+    height: 200px;
+    width: 200px;
+    background: grey;
 }
 
 .infohead {
@@ -81,7 +90,14 @@ h2 {
 
 .quote {
     font-size: 36px;
-    font-weight: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quotee {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .action,
