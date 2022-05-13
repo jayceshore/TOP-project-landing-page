@@ -64,7 +64,7 @@ a {
 }
 
 .photospace {
-    align-items: right;
+    align-content: right;
     height: 200px;
     width: 200px;
     background: grey;
@@ -72,6 +72,13 @@ a {
 
 .infohead {
 
+}
+
+.box1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
