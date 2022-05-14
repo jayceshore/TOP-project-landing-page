@@ -71,24 +71,29 @@ a {
 }
 
 .infohead {
-
 }
 
-.box1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+.boxline {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.boxtext {
+    background: white;
+    border: 4px lightblue;
+    padding: 8px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 950;
     color: #1F2937;
- }
-
- .box1 {
-     display: flex;
  }
 
 .quotebox {
